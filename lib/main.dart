@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:infline/pages/signIn.dart';
+import 'package:infline/pages/signUp.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.grey[900],
       ),
-      home: SignIn(),
+      home: SignUp(),
     );
   }
 }
